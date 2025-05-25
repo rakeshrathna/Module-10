@@ -21,9 +21,24 @@ To write a Python program that reverses the values in a stack using standard sta
 
 
 ### Program:
-Add Code Here
+```
+stack = []
+n = int(input("Enter number of elements to push: "))
+
+for i in range(n):
+    val = int(input(f"Enter element {i+1}: "))
+    stack.append(val)
+
+reverse = []
+while stack:
+    reverse.append(stack.pop())
+
+print("Reversed stack elements:", reverse)
+```
 
 ## 🧪 Sample Input and Output
+![446550006-9454e2cd-047c-45f8-a337-20225151bc86](https://github.com/user-attachments/assets/b7b52c80-8f76-4a74-b2ee-550711166f4d)
+
 
 ## Result
-
+Thus, the program is executed successfully
